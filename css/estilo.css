@@ -66,7 +66,7 @@ body {
 section {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -118,14 +118,14 @@ form {
 form input {
     border-radius: 10px;
     border: 0px;
-    height: 46px;
+    height: 30px;
     font-size: 20px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
 form label {
-    margin: 10px 0px 10px 0;
+    margin: 20px 0px 10px 0;
 }
 
 form input::placeholder {
@@ -136,7 +136,7 @@ form input::placeholder {
     font-size: 25px;
 }
 
-checkbox-itens {
+.checkbox-itens {
     display: flex;
     justify-content: space-around;
     align-items: center;
